@@ -1,0 +1,35 @@
+{
+  "name": "nodemonitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "docker": "docker build -t NodeMonitor ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joursion/Node-Monitor.git"
+  },
+  "keywords": [
+    "node.js",
+    "monitor",
+    "d3.js"
+  ],
+  "author": "Joursion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joursion/Node-Monitor/issues"
+  },
+  "homepage": "https://github.com/Joursion/Node-Monitor#readme"
+}
